@@ -12,6 +12,7 @@ spec:
     name: airflow
     version: 1.0.0
   values:
+    defaultAirflowTag: "1.10.10-2-python3.7"
     fernetKey: "zTxhk7FuGqQVPZVoukLn5bGWOrgHzhQnBnaqAItcZGI="
     env:
       - name: "AIRFLOW__KUBERNETES__DAGS_IN_IMAGE"
